@@ -1,0 +1,96 @@
+.sidebar{
+    background-color: #fff;
+    bottom: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(0,0,0,.0625);
+    border-right: 1px solid rgba(0,0,0,.0625);
+    width: 15%;
+}
+.admin-menu{
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 10px;
+}
+.admin-menu li{
+    position: relative;
+
+}
+.admin-menu>li>a{
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 15px;
+    position: relative;
+    white-space: nowrap;
+}
+.admin-menu li a{
+    color: #72777a!important;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.admin-menu li a:hover{
+    cursor: pointer;
+    color: red;
+}
+.content-admin{
+    background-color: #f9fafb!important;
+    padding: 20px 20px 20px;
+    min-height: calc(100vh - 1px);
+}
+.header-logo{
+    border-bottom: 1px solid rgba(0,0,0,.0625);
+    border-right: 1px solid rgba(0,0,0,.0625);
+    line-height: 0;
+    padding: 0 20px;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.header-logo img{
+    max-width: 91px;
+    margin: 10px;
+    margin-left: 60px;
+}
+
+#main .btn.btn-primary{
+    font-size: 14px!important;
+    padding: 5px 10px;
+    color: white!important;
+    background: green;
+    border: none;
+}
+#main .btn{
+    color:white!important;
+    font-size: 14px;
+    padding: 5px 15px;
+}
+#main a{
+    color: green!important;
+}
+
+#main .table{
+    font-size: 14px;
+}
+#main form , #main .form-control{
+    font-size: 14px;
+}
+#main .btn-default{
+    margin-left: -5%;
+    position: fixed;
+    height: 51px;
+    background: green;
+    color: white;
+    padding: 0 30px;
+    font-size: 14px;
+}
+.headers-admin{
+    min-height: 10%;
+    background: white;
+}
